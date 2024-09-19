@@ -3,7 +3,7 @@
 require_relative "lib/maintenance_mode/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "maintenance_mode"
+  spec.name = "maintenance_mode_simple"
   spec.version = MaintenanceMode::VERSION
   spec.authors = ["bogdancojan"]
   spec.email = ["tt1397894@gmail.com"]
