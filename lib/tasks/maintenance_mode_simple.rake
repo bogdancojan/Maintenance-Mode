@@ -1,4 +1,4 @@
-namespace :maintenance do
+namespace :maintenance_mode_simple do
   desc "Enable maintenance mode"
   task :start do
     File.write(Rails.root.join('tmp', 'maintenance.yml'), "enabled: true")
