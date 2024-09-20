@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/maintenance_mode/version"
+require_relative "lib/maintenance_mode_simple/version"
 
 Gem::Specification.new do |spec|
   spec.name = "maintenance_mode_simple"
-  spec.version = MaintenanceMode::VERSION
+  spec.version = MaintenanceModeSimple::VERSION
   spec.authors = ["bogdancojan"]
   spec.email = ["tt1397894@gmail.com"]
 

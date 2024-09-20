@@ -1,4 +1,4 @@
-module MaintenanceMode
+module MaintenanceModeSimple
   class Middleware
     def initialize(app)
       @app = app

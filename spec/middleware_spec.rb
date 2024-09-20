@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require "maintenance_mode/middleware"
+require "maintenance_mode_simple/middleware"
 
-RSpec.describe MaintenanceMode::Middleware do
+RSpec.describe MaintenanceModeSimple::Middleware do
   let(:app) { ->(env) { [200, { "Content-Type" => "text/plain" }, ["OK"]] } }
   let(:middleware) { described_class.new(app) }
   let(:env) { {} }
