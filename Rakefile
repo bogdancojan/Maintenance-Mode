@@ -10,3 +10,7 @@ require "rubocop/rake_task"
 RuboCop::RakeTask.new
 
 task default: %i[spec rubocop]
+
+require_relative "lib/maintenance_mode_simple"
+
+Dir.glob("lib/tasks/*.rake").each { |r| load r }
